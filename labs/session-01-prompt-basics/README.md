@@ -1,7 +1,9 @@
 # 🧪 Session 1 — Prompt Basics
 
+This lab demonstrates how small prompt refinements can transform AI responses from vague and unstructured to clear, concise, and useful.
+
 ## 🎯 Goal
-Understand how prompt clarity and structure affect AI responses.
+Understand how prompt clarity, structure, and constraints affect AI response quality.
 
 ---
 
@@ -20,37 +22,45 @@ You are a software engineer.
 
 Explain microservices to a beginner:
 - Use bullet points
-- Include an example
-- Keep it concise
+- Include one simple real-world example
+- Keep the explanation under 120 words
 
 ---
 
 ## 📊 Example Output
 
 ### Initial Prompt Output
-- Generic explanation  
-- No structure  
-- Too verbose  
+- Unstructured paragraph
+- No clear formatting
+- Broad explanation without example
 
 ### Improved Prompt Output
-- Clear bullet points  
-- Concise explanation  
-- Includes example  
+- Clear bullet points
+- Concise explanation
+- Includes example
 
 ---
 
 ## 📊 Evaluation
 
-| Criteria | Initial | Improved |
-|----------|--------|---------|
-| Clarity | Low | High |
-| Structure | Poor | Strong |
-| Relevance | Generic | Targeted |
+| Criteria    | Initial Prompt | Improved Prompt |
+|------------|----------------|----------------|
+| Clarity     | Low            | High           |
+| Structure   | Poor           | Strong         |
+| Relevance   | Generic        | Targeted       |
+| Consistency | Inconsistent   | Improved       |
 
 ---
 
 ## 💡 Key Learnings
 
-- Prompt clarity improves output quality  
-- Formatting instructions improve readability  
-- Adding context improves relevance  
+- Clear instructions improve response quality
+- Specifying output format improves readability
+- Adding context (role + audience) increases relevance
+- Constraints reduce unnecessary verbosity
+
+## 🚀 Takeaway
+
+Small prompt refinements significantly improve output clarity, structure, and usefulness.
+
+Prompt design plays a critical role when working with AI systems.
