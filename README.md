@@ -1,4 +1,4 @@
-# 🤖 AI Bootcamp Labs (Portfolio)
+# 🤖 AI Bootcamp Labs
 
 This repository showcases hands-on AI experiments focused on prompt engineering and AI applications in testing.
 
