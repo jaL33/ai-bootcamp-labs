@@ -1,12 +1,14 @@
 # 🔁 Session 2 — Prompt Iteration
 
+This lab shows how prompt refinement can improve AI outputs through clearer instructions, role context, and format constraints.
+
 ## 🎯 Goal
-Explore how different prompt variations affect output quality.
+Explore how different prompt variations affect response quality, consistency, and relevance.
 
 ---
 
 ## 🧠 Scenario
-Multiple prompts are tested to achieve consistent results.
+Multiple prompt versions are tested to identify the most effective way to ask the same question.
 
 ---
 
@@ -16,7 +18,7 @@ Multiple prompts are tested to achieve consistent results.
 Explain API testing.
 
 ### Prompt B
-Explain API testing using bullet points and an example.
+Explain API testing using bullet points and include one example.
 
 ### Prompt C
 You are a QA engineer.
@@ -31,26 +33,49 @@ Explain API testing to a beginner:
 
 ## 📊 Example Output Comparison
 
-| Prompt | Output Quality |
-|--------|---------------|
-| A | Unstructured, inconsistent |
-| B | Structured but generic |
-| C | Clear, relevant, concise |
+| Prompt | Result |
+|--------|--------|
+| A | Unstructured explanation with minimal guidance |
+| B | More structured, but still generic |
+| C | Clear, concise, and tailored to the intended audience |
 
 ---
 
 ## 📊 Evaluation
 
-| Criteria | A | B | C |
-|----------|--|--|--|
-| Clarity | Low | Medium | High |
-| Structure | Poor | Medium | Strong |
-| Relevance | Low | Medium | High |
+| Criteria    | Prompt A | Prompt B | Prompt C |
+|------------|----------|----------|----------|
+| Clarity     | Low      | Medium   | High     |
+| Structure   | Poor     | Medium   | Strong   |
+| Relevance   | Low      | Medium   | High     |
+| Consistency | Low      | Medium   | High     |
 
 ---
 
-## 🧠 Key Insights
+## 🧠 Key Insight
 
-- Role-based prompts improve domain relevance  
-- Constraints improve consistency  
-- Structured prompts produce more usable results  
+The most effective improvements were:
+
+- Assigning a role (e.g. QA engineer)
+- Defining clear output format (bullet points)
+- Applying constraints (length, structure)
+
+These changes consistently improved output quality and reliability across all responses.
+
+---
+
+## 🔁 Pattern Observed
+
+The following prompt pattern consistently produced better results:
+
+- Role + Audience
+- Structured format (bullet points / tables)
+- Explicit constraints (length, clarity)
+
+This pattern can be reused across different AI tasks.
+
+---
+
+## 🚀 Takeaway
+
+Small prompt improvements can transform AI output from vague and inconsistent into clear, structured, and relevant guidance.
