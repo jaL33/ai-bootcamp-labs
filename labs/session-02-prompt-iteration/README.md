@@ -1,8 +1,8 @@
-## 📊 Evaluation
+## 🧠 Key Insight
 
-| Criteria     | Initial Prompt | Improved Prompt |
-|--------------|--------------|----------------|
-| Clarity      | Low          | High           |
-| Relevance    | Medium       | High           |
-| Structure    | Poor         | Strong         |
-| Consistency  | Low          | Improved       |
+The most effective improvements came from:
+- Assigning a role (e.g. QA engineer)
+- Adding format constraints (bullet points, tables)
+- Limiting response length
+
+Prompt structure has a direct impact on output consistency.
