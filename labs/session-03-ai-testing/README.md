@@ -10,20 +10,39 @@ A login feature needs comprehensive test coverage.
 
 ---
 
+## 🎯 Key Pattern
+Effective QA prompts typically include:
+- Role definition (QA engineer)
+- Clear output structure (table format)
+- Coverage requirements (functional, edge, security)
+- Explicit constraints
+
+---
+
 ## 🧪 Prompt
 
 ### Initial Prompt
 Generate test cases for a login page.
 
 ### Improved Prompt
-You are a QA engineer.
+You are a senior QA engineer.
 
-Generate test cases for a login feature:
-- Include valid and invalid scenarios
-- Include edge cases
+Generate comprehensive test cases for a login feature.
 
-Return results in table format with:
+Use a structured prompt with:
+- Role definition
+- Output format
+- Coverage requirements
+
+Cover:
+- Functional scenarios
+- Negative scenarios
+- Boundary conditions
+- Security risks (e.g. SQL injection, brute force attempts)
+
+Return results in a table with:
 - Test case ID
+- Category (Functional / Negative / Security / Edge Case)
 - Description
 - Input
 - Expected result
@@ -32,20 +51,11 @@ Return results in table format with:
 
 ## 📊 Example Output
 
-| ID | Description | Input | Expected Result |
-|----|------------|------|----------------|
-| TC01 | Valid login | correct credentials | Success |
-| TC02 | Invalid login | incorrect password | Error message |
-| TC03 | Empty fields | blank input | Validation error |
-
----
-
-## 🧪 Additional Test Scenarios
-
-- SQL injection attempts  
-- Special characters  
-- Long input values  
-- Missing fields  
+| ID | Category | Description | Input | Expected Result |
+|----|----------|-------------|-------|-----------------|
+| TC01 | Functional | Valid login | valid username + valid password | Authenticated and redirected to dashboard |
+| TC02 | Negative | Invalid password | valid username + wrong password | Error shown: “Incorrect username or password” |
+| TC03 | Edge Case | Empty fields | blank username + blank password | Validation errors for required fields |
 
 ---
 
@@ -59,10 +69,20 @@ Return results in table format with:
 
 ---
 
+## 📊 Output Comparison
+
+| Prompt | Result |
+|--------|--------|
+| Basic | Generic, unstructured |
+| Structured | Organised but limited coverage |
+| QA-Oriented | Comprehensive, structured, and includes edge cases |
+
+---
+
 ## 🔍 Observations
 
 - AI can quickly generate diverse test cases  
-- Structured prompts produce usable outputs  
+- Structured prompts with role, format, and coverage guidance produce significantly more useful and complete test cases  
 - Outputs require validation by engineers  
 
 ---
