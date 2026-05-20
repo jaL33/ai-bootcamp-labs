@@ -81,3 +81,17 @@ This approach allows for systematic comparison between prompt variations and imp
 ---
 
 ## 📂 Repository Structure
+
+This repository is organised by session-based labs, each focused on a specific AI prompt or testing concept.
+
+- `labs/session-01-prompt-basics/`
+  - Introductory exercises for writing clear, simple prompts
+  - Includes examples, reasoning, and prompt refinement
+- `labs/session-02-prompt-iteration/`
+  - Iterative prompt design and comparison of prompt variants
+  - Highlights how small changes lead to different AI outputs
+- `labs/session-03-ai-testing/`
+  - Practical QA-focused prompts for generating test cases
+  - Contains sample prompt guidance, evaluation, and test case artifacts
+
+Each session folder includes a `README.md` that explains the goal, prompts used, and results from that lab.
